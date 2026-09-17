@@ -135,7 +135,7 @@ window.album = {
         {
             number: 3,
             title: "Antes de Voltar Pra Casa",
-            duration: "3:28",
+            duration: "4:11",
             composers: ["César Augusto / Piska"],
             audio: "audio/03.flac",
             lyrics: `[00:17.04] Antes de voltar pra casa diga pro seu coração
