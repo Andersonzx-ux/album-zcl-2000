@@ -6,6 +6,18 @@ window.album = {
     genre: "Sertanejo",
     labels: ["Columbia"],
     cover: "assets/cover.jpg",
+    // Paleta medida na capa (assets/cover.jpg) — ver tools/medir_paleta.py
+    // O player usa duas versões feitas só com estas cores: Dia (papel + azul) e Noite (preto-esverdeado + amarelo).
+    palette: {
+        ink: "#00259B",     // azul das letras do nome
+        red: "#E20106",     // vermelho do "di" e do "&"
+        night: "#0A1811",   // preto-esverdeado (cabelos e sombras)
+        forest: "#72872C",  // verde escuro (folhagem em sombra)
+        lime: "#ECEF80",    // verde-limão da folhagem
+        sun: "#F8E459",     // amarelo do suéter (em luz)
+        mint: "#D5F8C3",    // verde-água do suéter
+        paper: "#F4F9E9"    // quase-branco esverdeado (o mais claro da foto)
+    },
     description: "",
     totalDuration: "1:00:26",
     awards: [
